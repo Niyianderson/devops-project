@@ -85,6 +85,13 @@
     kubectl run sample-nginx --image=nginx --replicas=2 --port=80
     # kubectl run simple-devops-project --image=yankils/simple-devops-image --replicas=2 --port=8080
     kubectl get pods
+    
+    kubectl create deploy sample-nginx --image=nginx
+# deployment.apps/sample-nginx created
+
+kubectl get deploy
+kubectl scale deployment sample-nginx --replicas 2
+# deployment.apps/sample-nginx scaled
     kubectl get deployments
    ```
 
