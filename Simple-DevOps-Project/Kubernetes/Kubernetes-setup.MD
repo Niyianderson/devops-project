@@ -87,11 +87,11 @@
     kubectl get pods
     
     kubectl create deploy sample-nginx --image=nginx
-# deployment.apps/sample-nginx created
+   # deployment.apps/sample-nginx created
 
-kubectl get deploy
-kubectl scale deployment sample-nginx --replicas 2
-# deployment.apps/sample-nginx scaled
+    kubectl get deploy
+    kubectl scale deployment sample-nginx --replicas 2
+   # deployment.apps/sample-nginx scaled
     kubectl get deployments
    ```
 
